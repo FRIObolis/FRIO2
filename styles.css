@@ -1,0 +1,163 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Usar la fuente Poppins */
+body {
+    font-family: 'Poppins', sans-serif; /* Aplicar la fuente Poppins */
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e90ff; /* Azul frío */
+    color: white;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Sección principal */
+.hero {
+    background: url(https://img.lovepik.com/background/20211022/large/lovepik-winter-background-image_401806448.jpg) no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.3em;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #00bfff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #1e90ff;
+}
+
+/* Sección de productos */
+.productos {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f0f8ff;
+}
+
+.productos h2 {
+    color: #1e90ff;
+    margin-bottom: 25px;
+}
+
+.producto-item {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Estilo para las imágenes de productos */
+.producto-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto-item h3 {
+    color: #00bfff;
+    margin: 10px 0;
+}
+
+.producto-item span {
+    color: #1e90ff;
+    font-weight: bold;
+}
+
+/* Sección historia */
+.historia {
+    padding: 40px 20px;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.historia h2 {
+    color: #1e90ff;
+    margin-bottom: 15px;
+}
+
+/* Sección de contacto */
+.contacto {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+.contacto h2 {
+    color: #1e90ff;
+    margin-bottom: 15px;
+}
+
+.contacto ul {
+    list-style: none;
+    font-size: 1.1em;
+}
+
+/* Estilo para los íconos en la sección de contacto */
+.contacto ul img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.contacto a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.contacto a:hover {
+    color: #1e90ff;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
